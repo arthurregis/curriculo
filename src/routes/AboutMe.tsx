@@ -18,12 +18,12 @@ interface ImageInfo {
 const AboutMe = () => {
 
     const images: ImageInfo[] = [
-        { url: './src/assets/aboutme-img/html.png', alt: 'html-5' },
-        { url: './src/assets/aboutme-img/CSS.png', alt: 'css' },
-        { url: './src/assets/aboutme-img/js.png', alt: 'javascript' },
-        { url: './src/assets/aboutme-img/TS.png', alt: 'typeScript' },
-        { url: './src/assets/aboutme-img/react.png', alt: 'react' },
-        { url: './src/assets/aboutme-img/Tailwind.png', alt: 'tailwind' },
+        { url: 'src/assets/aboutme-img/html.png', alt: 'html-5' },
+        { url: 'src/assets/aboutme-img/CSS.png', alt: 'css' },
+        { url: 'src/assets/aboutme-img/js.png', alt: 'javascript' },
+        { url: 'src/assets/aboutme-img/TS.png', alt: 'typeScript' },
+        { url: 'src/assets/aboutme-img/react.png', alt: 'react' },
+        { url: 'src/assets/aboutme-img/Tailwind.png', alt: 'tailwind' },
     ];
 
     return (
