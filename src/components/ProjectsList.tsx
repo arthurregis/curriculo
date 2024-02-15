@@ -23,10 +23,6 @@ interface ProjectInfo {
 
 function ProjectsList() {
 
-    const swiperStyles = {
-        // ['--swiper-navigation-top-offset' as string]: "140px",
-    }
-
     const projects: ProjectInfo[] = [
         { url: './src/assets/projects-img/passGenerator.png', alt: 'password Generator', description: "The 'Password Generator' project, as the name suggests, is a tool for generating random passwords, allowing you to choose the desired size. This was one of my first projects, developed to practice DOM manipulation with JavaScript. I used pure HTML, CSS, and JavaScript to create this application.", github: "", view: "" },
         { url: './src/assets/projects-img/magtattoo.png', alt: 'html-5', description: "Landing Page created with ReactJS and Tailwind, highlighting the integration of componentization and React patterns. This solo project not only tested my skills but also aims to serve as the virtual business card for an existing tattoo studio.", github: "https://github.com/arthurregis/landing-page-mag-tattoo", view: "https://mag-tattoo-studio.vercel.app/" },
@@ -35,7 +31,6 @@ function ProjectsList() {
     return (
         <div>
             <Swiper
-                style={swiperStyles}
                 spaceBetween={10}
                 modules={[Navigation]}
                 navigation
