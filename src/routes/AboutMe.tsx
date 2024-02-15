@@ -2,11 +2,11 @@ import Header from "../components/Header";
 import '../index.css'
 
 import htmlImage from '../assets/aboutme-img/html.png'
-import css from '../assets/aboutme-img/html.png'
-import js from '../assets/aboutme-img/html.png'
-import ts from '../assets/aboutme-img/html.png'
-import react from '../assets/aboutme-img/html.png'
-import tailwind from '../assets/aboutme-img/html.png'
+import css from '../assets/aboutme-img/CSS.png'
+import js from '../assets/aboutme-img/js.png'
+import ts from '../assets/aboutme-img/TS.png'
+import react from '../assets/aboutme-img/react.png'
+import tailwind from '../assets/aboutme-img/Tailwind.png'
 
 import { GoDash } from "react-icons/go";
 
