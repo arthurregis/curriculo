@@ -1,13 +1,6 @@
 import Header from "../components/Header";
 import '../index.css'
 
-import html from './src/assets/aboutme-img/html.png';
-import css from './src/assets/aboutme-img/CSS.png';
-import js from './src/assets/aboutme-img/js.png';
-import ts from './src/assets/aboutme-img/TS.png';
-import react from './src/assets/aboutme-img/react.png';
-import tailwind from './src/assets/aboutme-img/Tailwind.png';
-
 import { GoDash } from "react-icons/go";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
