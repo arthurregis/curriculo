@@ -1,6 +1,13 @@
 import Header from "../components/Header";
 import '../index.css'
 
+import htmlImage from '../assets/aboutme-img/html.png'
+import css from '../assets/aboutme-img/html.png'
+import js from '../assets/aboutme-img/html.png'
+import ts from '../assets/aboutme-img/html.png'
+import react from '../assets/aboutme-img/html.png'
+import tailwind from '../assets/aboutme-img/html.png'
+
 import { GoDash } from "react-icons/go";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -18,12 +25,12 @@ interface ImageInfo {
 const AboutMe = () => {
 
     const images: ImageInfo[] = [
-        { url: 'src/assets/aboutme-img/html.png', alt: 'html-5' },
-        { url: 'src/assets/aboutme-img/CSS.png', alt: 'css' },
-        { url: 'src/assets/aboutme-img/js.png', alt: 'javascript' },
-        { url: 'src/assets/aboutme-img/TS.png', alt: 'typeScript' },
-        { url: 'src/assets/aboutme-img/react.png', alt: 'react' },
-        { url: 'src/assets/aboutme-img/Tailwind.png', alt: 'tailwind' },
+        { url: htmlImage, alt: 'html-5' },
+        { url: css, alt: 'css' },
+        { url: js, alt: 'javascript' },
+        { url: ts, alt: 'typeScript' },
+        { url: react, alt: 'react' },
+        { url: tailwind, alt: 'tailwind' },
     ];
 
     return (
