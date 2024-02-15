@@ -1,0 +1,22 @@
+:root{
+    --nav-button-color: #1E1E1E;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #3D285F 15%, #1E1E1E 100%);
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: white !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Radley", serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
