@@ -28,7 +28,7 @@ function ProjectsList() {
 
     const projects: ProjectInfo[] = [
         { url: magTattoo, alt: 'html-5', description: "Landing Page created with ReactJS and Tailwind, highlighting the integration of componentization and React patterns. This solo project not only tested my skills but also aims to serve as the virtual business card for an existing tattoo studio.", github: "https://github.com/arthurregis/landing-page-mag-tattoo", view: "https://mag-tattoo-studio.vercel.app/" },
-        { url: passGenerate, alt: 'password Generator', description: "The 'Password Generator' project, as the name suggests, is a tool for generating random passwords, allowing you to choose the desired size. This was one of my first projects, developed to practice DOM manipulation with JavaScript. I used pure HTML, CSS, and JavaScript to create this application.", github: "https://github.com/arthurregis/gerador-senhas", view: "#" },
+        { url: passGenerate, alt: 'password Generator', description: "The 'Password Generator' project, as the name suggests, is a tool for generating random passwords, allowing you to choose the desired size. This was one of my first projects, developed to practice DOM manipulation with JavaScript. I used pure HTML, CSS, and JavaScript to create this application.", github: "https://github.com/arthurregis/gerador-senhas", view: "" },
     ];
 
     return (
@@ -48,13 +48,22 @@ function ProjectsList() {
                                 <img
                                     className="object-cover rounded-md"
                                     src={project.url}
-                                    alt={project.alt} />
+                                    alt={project.alt} 
+                                />
                             </div>
                             <div className='flex flex-col gap-8 min-w-64 max-w-[600px]'>
                                 <h3 className='text-center md:text-lg lg:text-xl xl:text-2xl'>{project.description}</h3>
                                 <div className="flex flex-col justify-between w-full gap-4 md:flex-row">
                                     <Link to={project.github} target="_blank"><button className="flex justify-center items-center gap-2 bg-button-bg active:bg-button-bg hover:bg-purple-bg-light hover:scale-105 duration-200 w-full h-9 rounded-lg lg:cursor-pointer md:w-60 md:text-lg lg:w-56 xl:text-xl">See on GitHub<IoIosArrowForward/><FaGithub className='w-7 h-7'/></button></Link>
-                                    <Link to={project.view} target="_blank"><button className="flex justify-center items-center gap-2 bg-button-bg active:bg-button-bg hover:bg-purple-bg-light hover:scale-105 duration-200 w-full h-9 rounded-lg lg:cursor-pointer md:w-24 md:text-lg lg:w-28 xl:text-xl">View<GoArrowUpRight/></button></Link>
+                                    <Link 
+                                        to={project.view} 
+                                        target="_blank">
+                                            <button 
+                                                disabled={project.view === ""}
+                                                className={`flex justify-center items-center gap-2 bg-button-bg w-full h-9 rounded-lg lg:cursor-pointer md:w-24 md:text-lg lg:w-28 xl:text-xl active:bg-button-bg ${project.view !== "" ? 'hover:bg-purple-bg-light hover:scale-105 duration-200' : 'opacity-50 disabled'}`}
+                                                >View<GoArrowUpRight/>
+                                            </button>
+                                    </Link>
                                 </div>
                             </div>
 

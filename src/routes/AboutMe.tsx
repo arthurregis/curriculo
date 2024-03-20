@@ -45,11 +45,7 @@ const AboutMe = () => {
             <div className="flex flex-col gap-14 pt-10 justify-center items-center md:pt-12 md:gap-10 xl:pt-16 xl:gap-14">
                 <div className="text-center text-white text-lg md:text-xl xl:text-2xl">
                     <h3>
-                        Me chamo Arthur Oliveira, tenho 24 anos e cursei Engenharia de Software na Universidade Federal do Ceará por 4 anos. Durante minha graduação, fui bolsista da coordenadora do curso por 1 ano, onde organizei palestras, rodas de conversa e eventos relacionados à área da tecnologia.
-
-                        Sou apaixonado por tecnologia e estudo diariamente sobre desenvolvimento web. Tenho um bom conhecimento de HTML, CSS, JavaScript, React e Tailwind CSS, e já desenvolvi projetos utilizando essas tecnologias. Atualmente, estou aprendendo TypeScript, Vue.js e Angular, e também estou explorando conceitos de bancos de dados, desenvolvimento ágil e engenharia de software.
-
-                        Tenho planos de expandir meu conhecimento para incluir linguagens de back-end, como Node.js, no futuro. Estou sempre em busca de me aperfeiçoar e adquirir novas habilidades para enfrentar novos desafios na área de tecnologia.
+                        My name is Arthur Oliveira, I'm 24 years old and I studied Software Engineering at the Federal University of Ceará for 4 years. During my undergraduate studies, I was a scholarship holder under the course coordinator for 1 year, where I organized lectures, discussion groups, and events related to the technology field. I'm passionate about technology and I study web development daily. I have a good knowledge of HTML, CSS, JavaScript, React, and Tailwind CSS, and I've already developed projects using these technologies. Currently, I'm learning TypeScript, Vue.js, and Angular, and I'm also exploring database concepts, agile development, and software engineering. I have plans to expand my knowledge to include backend languages like Node.js in the future. I'm always seeking to improve and acquire new skills to tackle new challenges in the technology field.
                     </h3>
                 </div>
 
